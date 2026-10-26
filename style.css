@@ -1,14 +1,14 @@
 body {
 	font: 12px Arial, Tahoma, Verdana, sans-serif;
 	margin: 0;
-	background-image: url(/ProyectoBueno/images/wallpaper.jpg);
+	background-image: url(/imagenes/wallpaper.jpg);
 	background-size: cover; 
 }
 
 /* DIV CONTENEDOR GENERAL */
+/* Quito el max width para que llegue a toda la pantalla */
 #wrapper {
-    max-width: 960px;
-    width: 100%;
+    width: 100%; 
     margin: auto;
 }
 /* Header
@@ -31,7 +31,8 @@ body {
     /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
 	width: 550px;
 	float: left;
-    padding: 10px;   
+    padding: 10px;
+	
 }
 
 #sideRight {
@@ -45,8 +46,10 @@ body {
 }
 
 .img_halloween {
-	width: 550px;
+	width: 500px;
 	border-radius: 20px;
+	margin-left: 10px;
+	margin-right: auto;
 }
 .campo_texto {
 	background-color: #e60012;
@@ -54,4 +57,67 @@ body {
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
+	max-width: 473px;
+	margin-left: 10px;
+}
+
+#cssmenu{
+	background-color: #e60012;
+	color: #FFFFFF !important;
+	border-radius: 20px;
+	text-decoration: none;
+	margin: 10px;
+}
+
+/* Quita el fondo blanco y las sombras en el menu Marco Perez/Lucia Moyano */
+#wrapper #cssmenu > ul {
+	background: transparent;
+	border: none;
+}
+
+#wrapper #cssmenu > ul li a {
+	color: #ffffff;
+	text-shadow: none;
+}
+/* Copiado de styles.css para poder modificar la apariencia del hover Marco Perez/Lucia Moyano */
+#cssmenu > ul li a:hover {
+	border-radius: 20px;
+}
+
+.link_trifuerza {
+	width: 25px;
+	margin-left: 10px;
+}
+
+.zelda_trifuerza {
+	width: 25px;
+}
+
+.mario_pixel {
+	width: 25px;
+	padding-left: 650px;
+}
+.bowser_pixel {
+	width: 50px;
+	padding-left: 20px;
+}
+
+.oot_promocional {
+	width: 500px;
+	margin-top: 10px;
+	border-radius: 20px;
+	position: relative; /* Estas dos lineas hacen que la imagen (Marco Perez)*/
+    left: -20px			/* se muevan a la izquierda sin causar desajustes (Lucia Moyano)*/
+}
+
+.novedades_oot {
+	height: 137px;
+	background-color: #e60012;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	max-width: 473px;
+	position: relative;
+    left: -20px
 }
