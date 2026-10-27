@@ -1,2 +1,2 @@
 # Trabajo_Aplicaciones_Web
-  Marco Perez, Lucia Moyano
+  Marco Perez y Lucia Moyano, Aplicaciones Web 2º SMR-V
