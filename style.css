@@ -121,3 +121,10 @@ body {
 	position: relative;
     left: -20px
 }
+
+.img_menu {
+	width: 15px;
+	position: relative;
+	top: 3px;
+	right: 2px;
+}
