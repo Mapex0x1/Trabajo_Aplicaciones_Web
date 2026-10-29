@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Nintendo</title>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css">
+    <!-- Script para los menús -->
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   	<script src="script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<img src="/imagenes/link_trifuerza.png" alt="link" class="link_trifuerza">
+			<img src="/imagenes/Logo_Nintendo.svg" alt="nintendo" class="logo_nintendo">
+			<img src="/imagenes/zelda_trifuerza.png" alt="zelda" class="zelda_trifuerza">
+			<img src="/imagenes/mario(1).png" alt="mario_pixel" class="mario_pixel">
+			<img src="/imagenes/bowser_pixe-art.png" alt="bowser_pixel" class="bowser_pixel">
+		</div>
+
+		<!-- MENU-->
+        <div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='index.html'><span><img src="/imagenes/Casa.png" alt="casa" class="img_menu">Inicio </span></a></li>
+               <li class='has-sub'><a href='#'><span><img src="/imagenes/Champiñon.png" alt="seta" class="img_menu">Información</span></a>
+                  <ul>
+                     <li><a href='info_product_1.html'><span>Historia de Nintendo</span></a></li>
+                     <li><a href='info_product_2.html'><span>Consolas</span></a></li>
+                     <li class='last'><a href='#'><span>Product 3</span></a></li>
+                  </ul>
+               </li>
+               <li class='has-sub'><a href='#'><span><img src="/imagenes/Trifuerza.png" alt="seta" class="img_menu">Galería</span></a>
+                  <ul>
+                     <li><a href='#'><span>Company</span></a></li>
+                     <li class='last'><a href='contacto.html'><span>Contact</span></a></li>
+                  </ul>
+               </li>
+			   <li class='last'><a href='#'><span><img src="/imagenes/Hoja_Crossing.png" alt="seta" class="img_menu">Tarifas</span></a></li>
+               <li class='last'><a href='/contacto.html'><span><img src="/imagenes/Pikachu.png" alt="seta" class="img_menu">Contacto</span></a></li>
+            </ul>
+        </div>
+
+        <!-- MIDDLE -->  
+         <div>
+            
+            <fieldset class="formulario">
+               <form>
+                 <p class="p_contacto">¡CONTACTANOS!</p> <br> <br>
+                  Nombre*: <input type="text" required> Apellidos*: <input type="text" required> <br> <br>
+                  Correo electrónico*: <input type="email" required> <br> <br>
+                  Fecha de nacimiento:  <input type="date"> <br><br>
+                  Contraseña*: <input type="password" minlength="8" maxlength="12" required pattern="[A-Za-z0-9\-_.]{8,12}"> <br><br>
+                  Introduce de nuevo la contraseña* <input type="password" required> <br><br>
+                  ¿Cuál es la consola que utilizas con mayor frecuencia? <select name="Consola"><br>
+                        <option>DS</option>
+                        <option>2DS</option>
+                        <option>3DS</option>
+                        <option>Wii</option>
+                        <option>Wii U</option>
+                        <option>Switch 1</option>
+                        <option>Switch 2</option>
+                        </select> <br> <br>
+                  Introduce el nombre de tu cuenta nintendo*: <input type="text" required> <br> <br>
+                    
+                  <button>Enviar</button> 
+               </form>
+            </fieldset>
+
+            
+         </div>
+
+         <div id="footer">
+            
+			
+	      </div>
+	</div>	
+</body>
+</html>
+
+
+<!--<i class="fa-brands fa-instagram"></i>-->

@@ -1,6 +1,7 @@
 body {
 	font: 12px Arial, Tahoma, Verdana, sans-serif;
 	margin: 0;
+	background: fixed; /*Hace que el fondo se quede quieto*/
 	background-image: url(/imagenes/wallpaper.jpg);
 	background-size: cover; 
 }
@@ -16,7 +17,11 @@ body {
 #header {
 	height: 50px;
 	background: #e60012;
+	position: sticky; /*Estas 3 lineas son para que el header */
+	top: 0;			  /*se quede quietoy no baje con el contenido*/
+	z-index: 1000;	  /*                                         */
 }
+
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -24,7 +29,23 @@ body {
 	width: 100%;
     background-color: transparent; 
     overflow: auto;
-	
+}
+
+#footer {
+	height: 50px;
+	background: #e60012;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+}
+
+#footer_prod_1 {
+	height: 50px;
+	background: #e60012;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 #content {
@@ -63,7 +84,7 @@ body {
 
 #cssmenu{
 	background-color: #e60012;
-	color: #FFFFFF !important;
+	color: #000000 !important;
 	border-radius: 20px;
 	text-decoration: none;
 	margin: 10px;
@@ -76,12 +97,13 @@ body {
 }
 
 #wrapper #cssmenu > ul li a {
-	color: #ffffff;
+	color: #000000;
 	text-shadow: none;
 }
 /* Copiado de styles.css para poder modificar la apariencia del hover Marco Perez/Lucia Moyano */
 #cssmenu > ul li a:hover {
 	border-radius: 20px;
+	background-color: #e60012;
 }
 
 .link_trifuerza {
@@ -127,4 +149,221 @@ body {
 	position: relative;
 	top: 3px;
 	right: 2px;
+}
+
+.producto1 {
+	color: black;
+	border-radius: 20px;
+}
+
+.formulario {
+	background-color: white;
+	max-width: 500px;
+	margin-left: 500px;
+}
+
+.p_contacto {
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+
+.gameywatch {
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.gameywatch_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+}
+
+.nes_div {
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nes {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+}
+
+
+
+
+
+.hanafuda_cards {
+	border-style: solid;
+	border-color: #000000;
+	max-width: 400px;
+	margin-left: 50px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.hanafuda_historia {
+	max-width: 500px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.hanafuda_historia_div {
+    display: flex; /*Esto hace que se pongan en fila*/
+    align-items: center;    
+    gap: 20px; /*Esto define el espacio entre hijos*/    
+}
+
+.hanafuda_cards {
+    max-width: 700px;      
+    height: auto;
+    display: block;
+}
+
+.taxi {
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.taxi_historia {
+	max-width: 500px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.taxi_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;    
+}
+
+.donkey_kong {
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.donkey_kong_historia {
+	max-width: 500px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.donkey_kong_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px
+}
+
+.nes {
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	border-radius: 20px;
+}
+
+.nes_historia {
+	width: 500px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.nes_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+}
+
+.gb{
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.gb_historia {
+	width: 500px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.gb_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px
+}
+
+.wii {
+	border-style: solid;
+	border-color: #000000;
+	height: 400px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.wii_historia {
+	max-width: 500px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.wii_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    right: -10px;
 }

@@ -50,6 +50,8 @@
   border: 1px solid #ece6e8;
   border-bottom: 3px solid #d9ced2;
   border-top: 0 none;
+  border-bottom-right-radius: 20px; /*Estas dos lineas las añadimos nosotros para que*/
+  border-bottom-left-radius: 20px;  /*solo el borde de abajo sea redondeado*/
 }
 #cssmenu > ul li.has-sub ul li {
   display: block;
