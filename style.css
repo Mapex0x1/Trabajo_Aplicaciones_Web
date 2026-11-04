@@ -37,7 +37,6 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	position: fixed;
 }
 
 #footer_prod_1 {
@@ -55,6 +54,36 @@ body {
 	left: 0;
 	width: 100%;
 }
+
+#footer_contacto {
+	height: 50px;
+	background: #e60012;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;	
+}
+
+#footer_inicio {
+	height: 50px;
+	background: #e60012;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;	
+}
+
+#footer_tabla {
+	height: 50px;
+	background: #e60012;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;	
+}
+
+
+
 
 #content {
     /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
@@ -375,19 +404,365 @@ body {
 /*PAGINA PRODUCTO 1 FINAL*/
 
 /*PAGINA PRODUCTO 2 INICIO*/
+
+.titulo_p2 {
+	display: flex;
+	justify-content: center; /*Estas dos lineas centran en el medio*/
+}
+
 .titulo_consolas {
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
-	font-family:'Times New Roman', Times, serif
+	font-family:'Times New Roman', Times, serif;
+	background-color: white;
+	border-radius: 20px;
+	max-width: 350px;
+	padding: 10px 20px;
 }
 
-.fieldset_consolas {
-	max-width: 300px;
-	margin-left: 600px;
+.GameWatch {
+	height: 500px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.gameywatch {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
 	background-color: white;
 	border-radius: 20px;
 }
+
+.gameywatch_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nes_consola {
+	height: 700px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nes_p2 {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.nes_consola_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.gameboy_consola {
+	height: 600px;
+	width: 500px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.gameboy {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.gameboy_consola_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nintendo64_consola {
+	height: 500px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nintendo64 {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.nintendo64_consola_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.gameboyAdvance_consola {
+	height: 500px;
+	width: 500px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.gameboyAdvance {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.gameboyAdvance_consola_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.gamecube_consola {
+	height: 500px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.gamecube {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.gamecube_consola_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.DS_consola {
+	height: 500px;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.DS {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.DS_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.wii_consola {
+	height: 500px;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.wii {
+	max-width: 500px;
+	max-height: 100px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+	padding-bottom: 40px;
+}
+
+.wii_consola_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nintendo3DS_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nintendo3DS_consola {
+	height: 500px;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nintendo3DS {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.nintendowiiu_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nintendowiiu_consola {
+	height: 500px;
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nintendowiiu {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.nintendoswitch_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nintendoswitch_consola {
+	height: 700px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nintendoswitch {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.nintendoswitch2_div {
+	display: flex;
+    align-items: center;    
+    gap: 20px;
+	position: relative;
+    left: -50px;
+	display: flex;
+	justify-content: center;
+}
+
+.nintendoswitch2_consola {
+	height: 700px;
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.nintendoswitch2 {
+	max-width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 100px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+
+
+
+/*PAGINA PRODUCTO 2 FINAL*/
 
 
 
@@ -442,3 +817,35 @@ body {
     text-align: justify;
     margin-bottom: 0px;
 }
+
+/*PAGINA PRODUCTO 3 FINAL*/
+
+/*PAGINA TARIFAS INICIO*/
+.div_tabla {
+	display: flex;
+	justify-content: center;
+}
+
+.tabla {
+	background-color: white;
+}
+
+.titulo_tabla {
+	font-size: 50px;
+ 	white-space: nowrap; /* Evita que el texto se pase a la linea siguiente*/
+  	width: max-content;   /* Obliga al elemento a estirarse según el largo de su texto */
+
+}
+
+.caratula_bananza {
+	max-width: 50px;
+}
+
+.caratula_mkw {
+	max-width: 50px;
+}
+
+.caratula_oot {
+	max-width: 50px;
+}
+/*PAGINA TARIFAS FINAL*/

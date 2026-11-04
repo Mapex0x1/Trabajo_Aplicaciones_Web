@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Nintendo</title>
+	
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css">
+    <!-- Script para los menús -->
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   	<script src="script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<img src="/imagenes/link_trifuerza.png" alt="link" class="link_trifuerza">
+			<img src="/imagenes/Logo_Nintendo.svg" alt="nintendo" class="logo_nintendo">
+			<img src="/imagenes/zelda_trifuerza.png" alt="zelda" class="zelda_trifuerza">
+			<img src="/imagenes/mario(1).png" alt="mario_pixel" class="mario_pixel">
+			<img src="/imagenes/bowser_pixe-art.png" alt="bowser_pixel" class="bowser_pixel">
+		</div>
+		<!-- MENU-->
+        <div id='cssmenu'>
+            <ul>
+               <li class='active'><a href='index.html'><span><img src="/imagenes/Casa.png" alt="casa" class="img_menu">Inicio </span></a></li>
+               <li class='has-sub'><a href='#'><span><img src="/imagenes/Champiñon.png" alt="seta" class="img_menu">Información</span></a>
+                  <ul>
+                     <li class="producto1"><a href='info_product_1.html'><span>Historia de Nintendo</span></a></li>
+                     <li class="producto2"><a href='info_product_2.html'><span>Consolas</span></a></li>
+                      <li class='last'><a href='info_product_3.html'><span>Top Juegos</span></a></li>
+                  </ul>
+               </li>
+               <li class='has-sub'><a href='#'><span><img src="/imagenes/Trifuerza.png" alt="Trifuerza" class="img_menu">Galería</span></a>
+                  <ul>
+                     <li><a href='#'><span>Company</span></a></li>
+                     <li class='last'><a href='#'><span>Contact</span></a></li>
+                  </ul>
+               </li>
+			   <li class='last'><a href='tarifas.html'><span><img src="/imagenes/Hoja_Crossing.png" alt="Hoja_Crossing" class="img_menu">Tarifas</span></a></li>
+               <li class='last'><a href='contacto.html'><span><img src="/imagenes/Pikachu.png" alt="Pikachu" class="img_menu">Contacto</span></a></li>
+            </ul>
+        </div>	
+        <!-- Div central -->
+        <div class="div_tabla">
+            <table border="" class="tabla">
+                <caption class="titulo_tabla">Catálogo de juegos</caption>  
+                <tr>
+                    <th>Caratula</th>
+                    <th>Nombre del juego</th>
+                    <th>Precio digital</th>
+                    <th>Precio fisico</th>
+                </tr>
+                <tr>
+                    <td><img src="/imagenes/Caratulas/Bananza.png" alt="Bananza" class="caratula_bananza"></td>
+                    <td>Donkey Kong Bananza</td>
+                    <td>69,99€</td>
+                    <td>79,99€</td>
+                </tr>
+                <tr>
+                    <td><img src="/imagenes/Caratulas/KartWorld.png" alt="MKW" class="caratula_mkw"></td>
+                    <td>Mario Kart World</td>
+                    <td>79,99€</td>
+                    <td>89,99€</td>
+                </tr>
+                <tr>
+                    <td><img src="/imagenes/Caratulas/oot.png" alt="OOT" class="caratula_oot"></td>
+                    <td>Ocarina Of Time</td>
+                    <td>59,99€</td>
+                    <td>69,99€</td>
+                </tr>
+            </table>
+         </div>
+	<div id="footer_tabla">
+			<img src="/imagenes/Instagram.png" alt="Instagram" class="Instagram"> 
+	</div>
+</body>
+</html>
