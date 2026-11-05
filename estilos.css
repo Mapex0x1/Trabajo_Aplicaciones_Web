@@ -1,0 +1,94 @@
+
+.menu {
+    margin-top: 15px; 
+}
+
+
+.menu a {
+    background-color: #ffffff;
+    color: #e60012;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.tabla-juegos {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse; /* Une los bordes de las celdas para que no queden huecos dobles feos */
+}
+
+
+.tabla-juegos th {
+    background-color: #e60012; 
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dddddd; /* Dibuja un borde fino gris claro alrededor de cada título */
+}
+
+
+.tabla-juegos td {
+    padding: 12px; 
+    text-align: center; 
+    border: 1px solid #dddddd; 
+    font-size: 16px;
+}
+
+
+.tabla-juegos img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* Recorta y ajusta la imagen automáticamente para que no se vea aplastada */
+    border-radius: 4px;
+}
+
+
+.caja-formulario {
+    background-color: #ffffff;
+    border: 1px solid #dddddd; /* Añade un borde gris claro de 1 píxel alrededor de la caja */
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.caja-formulario h2 {
+    margin-top: 0px;
+    color: #e60012; 
+    border-bottom: 2px solid #e60012;
+    padding-bottom: 10px;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Seleccionamos las cajas de texto (input), el desplegable (select) y el área de mensaje (textarea) */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Evita que el relleno (padding) haga que las casillas se salgan por la derecha */
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+} 
+
+
+.boton-enviar {
+    background-color: #e60012;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* Cambia la flecha del ratón por una mano cuando pasas por encima del botón */
+}
